@@ -1,101 +1,76 @@
 <!doctype html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>PoliteJS by PoliteJS</title>
-
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
+
+    <title>JSBox - run live JS Exercises!</title>
+
+    <link rel="stylesheet" href="//noblackmagic.com/assets/css/nobm.min.css?v1">
+    <link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
+
+    <!--  Icons -->
+    <link rel="icon" type="image/png" href="assets/images/polite.png?v1" sizes="16x16">
+    <link rel="icon" type="image/png" href="assets/images/polite.png?v1" sizes="32x32">
+    <!-- // Icon -->
+
+    
+    
+    <!-- Google Analytics -->
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-52966127-1', 'auto');
+    ga('send', 'pageview');
+    </script>
+
+</head>
+
+<body>
+
     <div class="wrapper">
-      <header>
-      	
-      	<img src="https://www.gravatar.com/avatar/63f098408b10816fe568750140b7f254.png?r=x&s=100" style="margin-bottom:10px" />
-      	
-        <h1>PoliteJS</h1>
-        <p>A NodeJS smart Web + Blog engine</p>
+        <header>
+            <div id="header-block" class="clearfix">
+                <img id="logo" class="left" alt="PoliteJS Logo" width="75" src="assets/images/polite.jpg" />
+                <div id="title-block" class="left">
+                    <h1>PoliteJS<small>.com</small></h1>
+                    <p>that's web stuff</p>
+                </div>
+            </div>
+            
+            <script src="http://noblackmagic.com/assets/js/mpeg.min.js?v1"></script>
+            <script src="//noblackmagic.com/assets/js/mchimp.js?v1&style=border-top%3Anone%20!important%3B"></script>
+            
+            <div class="addthis_sharing_toolbox" style="margin-left:5px;margin-top:30px;text-align:center"></div>
+        </header>
 
-
-        <p class="view"><a href="https://github.com/PoliteJS">Explore on GitHub!</a></p>
-        
-      </header>
-      <section>
-        <blockquote>
-<p><em>PoliteJS</em> today is a single developer personal project who wants to create a <em>NodeJS</em> tool to deploy an HTML website from <em>Markdown</em> (and similar) source files.</p>
-</blockquote>
-
-<h2>
-<a name="main-developement-plan" class="anchor" href="#main-developement-plan"><span class="octicon octicon-link"></span></a>Main Developement Plan</h2>
-
-<h3>
-<a name="v0x" class="anchor" href="#v0x"><span class="octicon octicon-link"></span></a>v0.x</h3>
-
-<p><em>PoliteJS</em> will run with a combination of <em>GruntJS</em> third party plugins and the core module which exposes itself as a <em>GruntJS</em> plugin.</p>
-
-<pre><code>// compile the blog locally
-grunt, grunt build
-
-// working session, compile locally when contents changes
-grunt start
-
-// compile locally and push to remote target (ftp, GitHub, xxx)
-grunt deploy
-</code></pre>
-
-<h3>
-<a name="v1x" class="anchor" href="#v1x"><span class="octicon octicon-link"></span></a>v1.x</h3>
-
-<p><em>GruntJS</em> third party plugins will be moved to the core to avoid dependency on <em>GruntJS</em>.<br><em>PoliteJS</em> become a node executable or something similar.</p>
-
-<pre><code>// compile the blog locally
-politejs
-
-// working session, compile locally when contents changes
-politejs start
-
-// compile locally and push to remote target (ftp, GitHub, xxx)
-politejs deploy
-</code></pre>
-
-<h3>
-<a name="v2x" class="anchor" href="#v2x"><span class="octicon octicon-link"></span></a>v2.x</h3>
-
-<p><em>PoliteJS</em> will be a platform independent application with its own <em>GUI</em> (probably with <em><a href="https://github.com/rogerwang/node-webkit">node-webkit</a></em>).</p>
-
-<blockquote>
-<p><em>PoliteJS</em> will be a website + blog IDE</p>
-</blockquote>
-
-<p>Any person in the world will be able to use <em>PoliteJS</em> to build its personal website or blog and, maybe, some simple institutional websites.</p>
-
-<h3>
-<a name="3x" class="anchor" href="#3x"><span class="octicon octicon-link"></span></a>3.x</h3>
-
-<p>Will be introduced the <strong>templates market</strong> and <strong>plugins market</strong> to download (may be buy) templates and plugins from inside the <em>PoliteJS IDE</em>.</p>
-
-<p>Will be introduced dedicated hosting solutions both free and with some payment plans.</p>
-      </section>
-      <footer>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
+        <article style="padding-top: 110px;">
+            
+            <section>
+                <h2>JSBox <small><span>- Pure JS Front End Sandbox</span></small></h2>
+                <p>
+                    <a href="http://jsbox.politejs.com" title="pure javascript front end sandbox" target="_blank">Open JSBox Project &raquo;</a>
+                </p>
+            </section>
+            
+            <section>
+                <h2>Workspace <small><span>- Single Page Application Bootstrap</span></small></h2>
+                <p>
+                    <a href="https://github.com/PoliteJS/workspace#politejss-single-page-app-workspace" title="single page application bootstrap and building tool" target="_blank">Open Workspace Project &raquo;</a>
+                </p>
+            </section>
+            
+        </article>
     </div>
-    <script src="javascripts/scale.fix.js"></script>
-              <script type="text/javascript">
-            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-          </script>
-          <script type="text/javascript">
-            try {
-              var pageTracker = _gat._getTracker("UA-43775048-2");
-            pageTracker._trackPageview();
-            } catch(err) {}
-          </script>
-
-  </body>
+    
+    
+    <!-- Dependencies -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53bbbbe907e85e8c"></script>
+    
+</body>
 </html>
